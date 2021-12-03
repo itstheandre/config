@@ -1,0 +1,11 @@
+{
+  "name": "typescript-language-server",
+  "package": "typescript-language-server",
+  "version": "0.8.1",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "manager": "Npm"
+}

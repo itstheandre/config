@@ -1,0 +1,24 @@
+# !bin/bash
+init=true
+if [ $# -eq 0 ]; then
+	echo "No arguments provided"
+	init=false
+fi
+if $init; then
+if [ $# -eq 0 ]; then
+	echo "No arguments provided"
+	exit 0
+fi
+
+list=("$@")
+arr=()
+
+for arg in "${list[@]}"; do
+	val="@types/"
+	val+=$arg
+	arr+=($val)
+done
+
+
+npm i -D ${arr[@]}
+fi

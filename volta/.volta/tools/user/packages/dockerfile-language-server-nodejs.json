@@ -1,0 +1,13 @@
+{
+  "name": "dockerfile-language-server-nodejs",
+  "version": "0.7.2",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "bins": [
+    "docker-langserver"
+  ],
+  "manager": "Npm"
+}

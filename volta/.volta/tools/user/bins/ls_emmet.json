@@ -1,0 +1,11 @@
+{
+  "name": "ls_emmet",
+  "package": "ls_emmet",
+  "version": "1.0.6",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "manager": "Npm"
+}

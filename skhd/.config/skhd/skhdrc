@@ -1,0 +1,3 @@
+# cmd + alt - return : open -n /Applications/Rosetta_Term.app/
+
+cmd + alt - return : open -n ~/alacritty/target/release/osx/Alacritty.app

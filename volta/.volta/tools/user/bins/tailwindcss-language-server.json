@@ -1,0 +1,11 @@
+{
+  "name": "tailwindcss-language-server",
+  "package": "@tailwindcss/language-server",
+  "version": "0.0.5",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "manager": "Npm"
+}

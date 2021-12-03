@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+# brew install stow
+stow alacritty gitconfig nvim skhd tmux zsh zshrc

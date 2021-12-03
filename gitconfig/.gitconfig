@@ -1,0 +1,33 @@
+
+[core]
+	edit = nvim
+	ignorecase = false
+	excludesfile = /Users/andredealbuquerque/.gitignore_global
+
+[alias]
+	co = "checkout"
+	st = "status"
+	branches = "branch -a"
+	f = "fetch --all"
+[user]
+	email = itstheandre@gmail.com
+	name = André de Albuquerque
+[pull]
+	rebase = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+
+[includeIf "gitdir:~/Projects/"]
+    path = ~/.dotfiles/personal.gitconfig
+[includeIf "gitdir:~/OSS/"]
+	path = ~/.dotfiles/personal.gitconfig
+[includeIf "gitdir:~/Ironhack/"]
+	path = ~/.dotfiles/ironhack.gitconfig
+[includeIf "gitdir:~/work/"]
+	path = ~/.dotfiles/work.gitconfig
+	

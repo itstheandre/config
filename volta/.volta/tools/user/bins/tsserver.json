@@ -1,0 +1,11 @@
+{
+  "name": "tsserver",
+  "package": "typescript",
+  "version": "4.5.2",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "manager": "Npm"
+}

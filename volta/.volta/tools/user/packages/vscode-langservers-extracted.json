@@ -1,0 +1,16 @@
+{
+  "name": "vscode-langservers-extracted",
+  "version": "3.0.2",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "bins": [
+    "vscode-css-language-server",
+    "vscode-eslint-language-server",
+    "vscode-html-language-server",
+    "vscode-json-language-server"
+  ],
+  "manager": "Npm"
+}

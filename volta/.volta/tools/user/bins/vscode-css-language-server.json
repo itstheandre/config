@@ -1,0 +1,11 @@
+{
+  "name": "vscode-css-language-server",
+  "package": "vscode-langservers-extracted",
+  "version": "3.0.2",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "manager": "Npm"
+}

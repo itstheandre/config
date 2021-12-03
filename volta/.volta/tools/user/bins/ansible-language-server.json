@@ -1,0 +1,11 @@
+{
+  "name": "ansible-language-server",
+  "package": "ansible-language-server",
+  "version": "0.1.1-0",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "manager": "Yarn"
+}

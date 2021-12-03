@@ -1,0 +1,13 @@
+{
+  "name": "svelte-language-server",
+  "version": "0.14.13",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "bins": [
+    "svelteserver"
+  ],
+  "manager": "Npm"
+}

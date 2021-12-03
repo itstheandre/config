@@ -1,0 +1,42 @@
+# !/bin/bash
+
+echo 'Choose the package manager: '
+package_manager=('npm' 'yarn' 'pnpm')
+pkg=""
+i=1
+for opt in "${package_manager[@]}"; do
+	echo "$i) $opt";
+	let i++;
+done
+
+read reply
+
+case $reply in 
+	"1"|"${package_manager[0]}"|"")
+		pkg="npm"
+		break
+		;;
+	"2"|"${package_manager[1]}")
+		pkg="yarn"
+		break
+		;;
+	
+	"3"|"${package_manager[2]}")
+		pkg="pnpm"
+		break
+		;;
+	*)
+		pkg="npm"
+		break
+		;;
+esac
+
+
+va=$(checkPkg)
+echo $va
+
+command="$pkg init -y"
+$command
+# my_package=$(set_package_manager)
+
+# echo $my_package

@@ -1,0 +1,8 @@
+# !bin/bash
+if git show-ref -q --heads $1; then
+	echo "Branch exists"
+fi
+# if [ `git branch --list $1` ]
+# then
+# 	echo "Branch $1 exists."
+# fi

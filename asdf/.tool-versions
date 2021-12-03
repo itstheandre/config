@@ -1,0 +1,9 @@
+ocaml 4.12.0
+elixir 1.12.1-otp-24
+solidity 0.8.10
+lua 5.4.3
+ruby 3.0.1
+kotlin 1.5.20-RC
+clojure 1.10.3.855
+redis 6.2.4
+rlwrap 0.45

@@ -1,0 +1,90 @@
+# !/bin/bash
+
+options=("option 1" "option 2");
+while :
+do
+    echo "Select your option:"
+    i=1;
+    for opt in  "${options[@]}"; do
+        echo "$i) $opt";
+        let i++;
+    done
+
+    read reply
+    case $reply in
+        "1"|"${options[0]}"|"")
+          echo "something "
+          break;;
+        "2"|"${options[1]}")
+          echo "something 2"
+          break;;
+        *)
+          echo "Invalid choice. Please choose 1 or 2";;
+    esac
+done
+# echo "Enter the name of a country: "
+# read COUNTRY
+
+# echo -n "The official language of $COUNTRY is "
+
+# case $COUNTRY in
+
+#   Lithuania)
+#     echo -n "Lithuanian"
+#     ;;
+
+#   Romania | Moldova)
+#     echo -n "Romanian"
+#     ;;
+
+#   Italy | "San Marino" | Switzerland | "Vatican City")
+#     echo -n "Italian"
+#     ;;
+
+#   *)
+#     echo -n "unknown"
+#     ;;
+# esac
+# function createTable() { echo "This is the table: $1"; }
+
+# var=$(createTable "hello")
+
+# echo $var
+
+
+# function hello() {
+# PS3='Choose the package manager: '
+# foods=("npm" "yarn" "pnpm" )
+# select fav in "${foods[@]}"; do
+#     case $fav in
+#         "npm")
+#            pkg="npm"
+# 	    # optionally call a function or run some code here
+# 		break
+#             ;;
+#         "yarn")
+#             pkg="yarn"
+# 			break
+# 	    # optionally call a function or run some code here
+#             ;;
+#         "pnpm")
+#             # pnpm init -y
+# 			pkg="pnpm"
+# 			break
+# 	    # optionally call a function or run some code here
+# 	    break
+#             ;;
+#         *) echo "Not going to init any node project"
+# 		exit 1
+# 		;;
+#     esac
+# done
+# echo $pkg
+# }
+
+# pkg_manager=$(hello)
+
+# echo "The chosen package manager is: $pkg_manager"
+
+# # hello $banana
+# # echo "OUTSIDE: $pkg"

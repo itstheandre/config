@@ -1,0 +1,14 @@
+{
+  "name": "pnpm",
+  "version": "6.23.2",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": null
+  },
+  "bins": [
+    "pnpm",
+    "pnpx"
+  ],
+  "manager": "Yarn"
+}

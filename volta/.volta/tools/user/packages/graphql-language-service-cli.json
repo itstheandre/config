@@ -1,0 +1,13 @@
+{
+  "name": "graphql-language-service-cli",
+  "version": "3.2.6",
+  "platform": {
+    "node": "16.13.0",
+    "npm": null,
+    "yarn": "1.22.17"
+  },
+  "bins": [
+    "graphql-lsp"
+  ],
+  "manager": "Npm"
+}

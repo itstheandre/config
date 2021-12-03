@@ -1,0 +1,28 @@
+# !bin/bash
+init=true
+if [ $# -eq 0 ]; then
+	echo "No arguments provided"
+	init=false
+fi
+
+
+if $init; then
+
+list=("$@")
+arr=()
+
+for arg in "${list[@]}"; do
+	val="@types/"
+	val+=$arg
+	arr+=($val)
+done
+
+
+if [[ ! -f 'package.json' ]]
+then
+	yarn init -y
+fi
+
+
+yarn add ${list[@]} && yarn add -D ${arr[@]}
+fi
